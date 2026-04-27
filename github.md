@@ -1,0 +1,1 @@
+GitHub is a new platform for me, I want the commits to be like a pulse for me, so sometimes I'll commit things here that aren't even the most necessary, but that way I'll feel like I'm making progress.
