@@ -1,4 +1,4 @@
-# Calculator temparature
+# Converter temparature 
 print("""This is a program 
 to change Celsius to Fahrenheit and vice versa.""")
 
