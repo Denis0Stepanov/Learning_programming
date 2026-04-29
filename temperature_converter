@@ -1,0 +1,23 @@
+# Calculator temparature
+print("""This is a program 
+to change Celsius to Fahrenheit and vice versa.""")
+
+print("""If you want to change from Celsius to Fahrenheit, 
+press 1. If you want to change Fahrenheit to Celsius, press 2""")
+change = int(input())
+
+
+if change == 1:
+      print("Okay, now please enter degrees in Celsius.")
+      celsius = int(input())
+      result = celsius * 1.8 + 32
+      print(f"Answer: {celsius}: Celsius is {result}: Fahrenheit")
+
+elif change == 2:
+      print("Okay, now please enter degrees in Fahrenheit.")
+      fahrenheit = int(input())
+      result = (fahrenheit - 32) / 1.8
+      print(f"Answer: {fahrenheit}: Fahrenheit is {result}: Celsius")
+else:
+      if change < 1 or change > 2:
+            print("Error")
